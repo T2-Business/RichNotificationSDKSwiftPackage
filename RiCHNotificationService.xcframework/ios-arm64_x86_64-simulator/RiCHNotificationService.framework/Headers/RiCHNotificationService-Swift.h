@@ -260,6 +260,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreData;
 #endif
 
 #endif
@@ -280,6 +281,39 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("NotificationData")
+@interface NotificationData : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSString;
+@class Response;
+
+@interface NotificationData (SWIFT_EXTENSION(RiCHNotificationService))
+@property (nonatomic, copy) NSString * _Nullable sender;
+@property (nonatomic, copy) NSString * _Nullable text;
+@property (nonatomic, strong) Response * _Nullable notificationdata;
+@end
+
+
+SWIFT_CLASS_NAMED("Response")
+@interface Response : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSDate;
+
+@interface Response (SWIFT_EXTENSION(RiCHNotificationService))
+@property (nonatomic, copy) NSDate * _Nullable createdAt;
+@property (nonatomic) int32_t errorCode;
+@property (nonatomic, copy) NSString * _Nullable errorMessage;
+@property (nonatomic, copy) NSString * _Nullable id;
+@property (nonatomic, strong) NotificationData * _Nullable data;
+@end
 
 #endif
 #if defined(__cplusplus)
@@ -551,6 +585,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreData;
 #endif
 
 #endif
@@ -571,6 +606,39 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("NotificationData")
+@interface NotificationData : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSString;
+@class Response;
+
+@interface NotificationData (SWIFT_EXTENSION(RiCHNotificationService))
+@property (nonatomic, copy) NSString * _Nullable sender;
+@property (nonatomic, copy) NSString * _Nullable text;
+@property (nonatomic, strong) Response * _Nullable notificationdata;
+@end
+
+
+SWIFT_CLASS_NAMED("Response")
+@interface Response : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSDate;
+
+@interface Response (SWIFT_EXTENSION(RiCHNotificationService))
+@property (nonatomic, copy) NSDate * _Nullable createdAt;
+@property (nonatomic) int32_t errorCode;
+@property (nonatomic, copy) NSString * _Nullable errorMessage;
+@property (nonatomic, copy) NSString * _Nullable id;
+@property (nonatomic, strong) NotificationData * _Nullable data;
+@end
 
 #endif
 #if defined(__cplusplus)

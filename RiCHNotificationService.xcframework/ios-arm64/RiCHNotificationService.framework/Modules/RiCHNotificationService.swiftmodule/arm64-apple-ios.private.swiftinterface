@@ -2,11 +2,11 @@
 // swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RiCHNotificationService
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreData
 import Foundation
 @_exported import RiCHNotificationService
 import Swift
 import UIKit
-import Unrealm
 import UserNotifications
 import _Concurrency
 import _StringProcessing
@@ -20,9 +20,8 @@ public protocol Payloadable : Swift.Decodable, Swift.Encodable {
 extension RiCHNotificationService.Payloadable {
   public func payload() -> Foundation.Data?
 }
-public struct Response {
+public struct ResponseApiModel : Swift.Codable {
   public var id: Swift.String?
-  public static func primaryKey() -> Swift.String?
   public init()
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
@@ -33,6 +32,7 @@ public struct RiCHService {
 }
 extension RiCHNotificationService.RiCHService {
   public func registerDevice(token: Swift.String, deviceID: Swift.String, imeI1: Swift.String, imeI2: Swift.String, mobileNumber: Swift.String, provider: RiCHNotificationService.PushProvider, _ completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
+  public func witeTest(id: Swift.String, text: Swift.String, sender: Swift.String)
   public func fetchAllNotifications() -> [RiCHNotificationService.RiCHService.RiCHNotification]?
   public func fetchNotification(by id: Swift.String) -> RiCHNotificationService.RiCHService.RiCHNotification?
   public func deleteAllNotifications() throws
@@ -48,9 +48,52 @@ public enum PushProvider : Swift.Int, Swift.Codable {
     get
   }
 }
-extension RiCHNotificationService.Response : Unrealm.Realmable {}
-extension RiCHNotificationService.Response : Swift.Encodable {}
-extension RiCHNotificationService.Response : Swift.Decodable {}
+@_inheritsConvenienceInitializers @objc(NotificationData) public class NotificationData : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension RiCHNotificationService.NotificationData {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<RiCHNotificationService.NotificationData>
+  @objc @NSManaged dynamic public var sender: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var notificationdata: RiCHNotificationService.Response? {
+    @objc get
+    @objc set
+  }
+}
+@_inheritsConvenienceInitializers @objc(Response) public class Response : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension RiCHNotificationService.Response {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<RiCHNotificationService.Response>
+  @objc @NSManaged dynamic public var createdAt: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var errorCode: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var errorMessage: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var data: RiCHNotificationService.NotificationData? {
+    @objc get
+    @objc set
+  }
+}
 extension RiCHNotificationService.PushProvider : Swift.Equatable {}
 extension RiCHNotificationService.PushProvider : Swift.Hashable {}
 extension RiCHNotificationService.PushProvider : Swift.RawRepresentable {}
