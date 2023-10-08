@@ -1411,6 +1411,34 @@
       "value": "\"Invalid URL used to create URL instance\""
     },
     {
+      "filePath": "\/Users\/apple\/Documents\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Networking\/EndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 24,
+      "value": "\"httpCommonHeaderFields\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Networking\/EndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 1803,
+      "length": 10,
+      "value": "\"httpBody\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Networking\/EndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 1851,
+      "length": 8,
+      "value": "\"params\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Networking\/EndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 1887,
+      "length": 14,
+      "value": "\"request --> \""
+    },
+    {
       "filePath": "\/Users\/apple\/Documents\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 227,
