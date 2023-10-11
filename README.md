@@ -64,6 +64,7 @@ Steps to create notification service extension:
     8.  Now open your UNNotificationServiceExtension extended class in your notification service extension.
     9.  Import RiCHNotificationService.
     10. In your didReceive(_ request: UNNotificationRequest call RiCHNotificationExtensionHandler().handleNotification method.
+    
     ```swift
 import UserNotifications
 import RiCHNotificationService
