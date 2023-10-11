@@ -27,8 +27,7 @@ public struct NotificationData : Swift.Codable {
 }
 public struct Response : Swift.Codable {
   public var data: RiCHNotificationService.NotificationData?
-  public var id: Swift.String
-  public init()
+  public var id: Swift.String?
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -38,7 +37,6 @@ public struct RiCHService {
 }
 extension RiCHNotificationService.RiCHService {
   public func registerDevice(token: Swift.String, deviceID: Swift.String, imeI1: Swift.String, imeI2: Swift.String, mobileNumber: Swift.String, provider: RiCHNotificationService.PushProvider, _ completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
-  public func witeTest(response: RiCHNotificationService.Response)
   public func fetchAllNotifications() -> [RiCHNotificationService.RiCHService.RiCHNotification]?
   public func fetchNotification(by id: Swift.String) -> RiCHNotificationService.RiCHService.RiCHNotification?
   public func deleteAllNotifications()

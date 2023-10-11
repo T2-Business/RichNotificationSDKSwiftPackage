@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		CNNPTWKeAeo/t9wvEc1f+noXahE=
+		5PDRfdjdEo+SHr4qwIGtm031/hs=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		S3hVeMwEMv1xQDK87nsc+Br2MxM=
+		kIJL4v8oz6FZVPBHm9FSM6kgSgI=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		4wdyo7408sF23Af8rwCT5QZs/EI=
+		kwvb4E+F72p6+3SVFFIzXjOUDMs=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		S3hVeMwEMv1xQDK87nsc+Br2MxM=
+		kIJL4v8oz6FZVPBHm9FSM6kgSgI=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		pRt3OTUAuWVLweCC3XS5qnFze4U=
+		SCA9m4H+FD9B89lyAo24yV7EpBo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FOxFXPCXT+C6G4t6SQFuLyWgxXX70fIodSLPiHoIR/Q=
+			ziONurE7Nhs2Lfpp6fh3yD/35JCzr7MVOn1AOX3mSq4=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IY05Rvg3Ezunf1DjXx4dR10LKzBe/xVHkRF8gtGwo6o=
+			e0V8Xb6cihalFQSyODTDMsuqljJhj687jzXk3IF++Y4=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YXQ+Tzl+QySbrUtn4WK3Kx4aOaTJZX3eedGfvqNxqAY=
+			zdGFInwOQZ7TurQmIXteWSHwTkQfCUjMlvvhi8VMyt8=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IY05Rvg3Ezunf1DjXx4dR10LKzBe/xVHkRF8gtGwo6o=
+			e0V8Xb6cihalFQSyODTDMsuqljJhj687jzXk3IF++Y4=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lMYnTc9zEjp6LMdGeiO+CkpFWrZhYwXbXFt+o3wftVw=
+			Y3Y3S7KIwhjP1MmAVptUNiZbLfZyLPFQTKRtIaLtR1U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
