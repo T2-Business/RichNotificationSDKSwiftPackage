@@ -1,7 +1,7 @@
 framework module RiCHNotificationService {
   umbrella header "RiCHNotificationService.h"
-
   export *
+
   module * { export * }
 }
 

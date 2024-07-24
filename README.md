@@ -116,3 +116,26 @@ In order for the framework to work you need to register the user device with RiC
         }
     }
      ```
+     
+     ## Available Methods
+The following methods are available in RiCHService for managing notifications:
+
+In order for the framework to work you need to register the user device with RiCH service, you can do that by calling RiCHService().registerDevice method after you catch device token and Mobile Number
+ 
+    ```swift
+       // Fetches all notifications
+          RiCHService().fetchAllNotifications()
+
+      // Fetches a specific notification by its ID
+         RiCHService().fetchNotification(by: id)
+
+     // Deletes a specific notification by its ID
+        RiCHService().deleteNotification(with: id)
+
+     // Deletes all notifications
+        RiCHService().deleteAllNotifications()
+
+     ```
+
+
+   
