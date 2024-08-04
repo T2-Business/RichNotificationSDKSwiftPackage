@@ -33,12 +33,20 @@ public struct Response : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct RegisterDeviceModel : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ErrorModel : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct RiCHService {
   public typealias RiCHNotification = RiCHNotificationService.Response
   public init()
 }
 extension RiCHNotificationService.RiCHService {
-  public func registerDevice(token: Swift.String, deviceID: Swift.String, imeI1: Swift.String, imeI2: Swift.String, mobileNumber: Swift.String, provider: RiCHNotificationService.PushProvider, _ completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
+  public func registerDevice(token: Swift.String, deviceID: Swift.String, imeI1: Swift.String, imeI2: Swift.String, mobileNumber: Swift.String, provider: RiCHNotificationService.PushProvider, _ completion: @escaping (Swift.Result<RiCHNotificationService.RegisterDeviceModel, any Swift.Error>) -> Swift.Void)
   public func fetchAllNotifications() -> [RiCHNotificationService.RiCHService.RiCHNotification]?
   public func fetchNotification(by id: Swift.String) -> RiCHNotificationService.RiCHService.RiCHNotification?
   public func logout()

@@ -1152,6 +1152,170 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "RegisterDeviceModel",
+        "printedName": "RegisterDeviceModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RegisterDeviceModel",
+                "printedName": "RiCHNotificationService.RegisterDeviceModel",
+                "usr": "s:23RiCHNotificationService19RegisterDeviceModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23RiCHNotificationService19RegisterDeviceModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23RiCHNotificationService19RegisterDeviceModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService19RegisterDeviceModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23RiCHNotificationService19RegisterDeviceModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23RiCHNotificationService19RegisterDeviceModelV",
+        "mangledName": "$s23RiCHNotificationService19RegisterDeviceModelV",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorModel",
+        "printedName": "ErrorModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorModel",
+                "printedName": "RiCHNotificationService.ErrorModel",
+                "usr": "s:23RiCHNotificationService10ErrorModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23RiCHNotificationService10ErrorModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23RiCHNotificationService10ErrorModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService10ErrorModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23RiCHNotificationService10ErrorModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23RiCHNotificationService10ErrorModelV",
+        "mangledName": "$s23RiCHNotificationService10ErrorModelV",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1286,7 +1450,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<RiCHNotificationService.RegisterDeviceModel, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1296,12 +1460,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "printedName": "Swift.Result<RiCHNotificationService.RegisterDeviceModel, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
+                        "name": "RegisterDeviceModel",
+                        "printedName": "RiCHNotificationService.RegisterDeviceModel",
+                        "usr": "s:23RiCHNotificationService19RegisterDeviceModelV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -1316,8 +1481,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:23RiCHNotificationService0A9CHServiceV14registerDevice5token8deviceID5imeI10J2I212mobileNumber8provider_ySS_S4SAA12PushProviderOys6ResultOyyts5Error_pGctF",
-            "mangledName": "$s23RiCHNotificationService0A9CHServiceV14registerDevice5token8deviceID5imeI10J2I212mobileNumber8provider_ySS_S4SAA12PushProviderOys6ResultOyyts5Error_pGctF",
+            "usr": "s:23RiCHNotificationService0A9CHServiceV14registerDevice5token8deviceID5imeI10J2I212mobileNumber8provider_ySS_S4SAA12PushProviderOys6ResultOyAA08RegisterF5ModelVs5Error_pGctF",
+            "mangledName": "$s23RiCHNotificationService0A9CHServiceV14registerDevice5token8deviceID5imeI10J2I212mobileNumber8provider_ySS_S4SAA12PushProviderOys6ResultOyAA08RegisterF5ModelVs5Error_pGctF",
             "moduleName": "RiCHNotificationService",
             "declAttributes": [
               "AccessControl",

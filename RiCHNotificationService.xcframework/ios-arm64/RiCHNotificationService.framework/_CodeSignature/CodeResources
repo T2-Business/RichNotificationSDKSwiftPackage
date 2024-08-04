@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		KJdjy+RRDULfX0Tt0hW2SE2UvSM=
+		DDNCj+s8nK0lsUaPx3uWg1w0ego=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		6Y+DiUKVZdLlnjCYy1jTcKBi9+c=
+		9eB1UQjqu5c9Dvyipbtv6cnRCpw=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		wtugt0X7t4x/irD9QYXifRJiq2U=
+		lF9tl4YnRFFkO5Nafju71cDXiEg=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		6Y+DiUKVZdLlnjCYy1jTcKBi9+c=
+		9eB1UQjqu5c9Dvyipbtv6cnRCpw=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/yDeT6hAycWcRpmrzok4+XocQk8=
+		7p1vOPjNT8fiUOebUg4F6BktFb0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bpUASdL4yzRuQpJP5+xCaIvxwmMPhOGvAlRuVla+C24=
+			C9gm1X32xXsPyPKAMZqBSEvmSAkuTzcMGdzo2D40UNA=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iNRtBhpNRVlrpF782MW4VxBKjjLgHi5niM68VkZ9lLc=
+			eoXz2V4IUgocgNDQnTpzyD9P2jL3l4SL7tLLS1AjPuo=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0OgKmr0dXICn4emZXbt808G64HEfggZGHOMPvUJ4OVc=
+			nkwMf0umTWP17PqKGeoo7eTm5VzM6tsx9UE0X4AP/7c=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iNRtBhpNRVlrpF782MW4VxBKjjLgHi5niM68VkZ9lLc=
+			eoXz2V4IUgocgNDQnTpzyD9P2jL3l4SL7tLLS1AjPuo=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xJbW+OqGRV5SjNeZdtzi+atrK76TWKAxvs2WBi2gjz0=
+			1y1fKbiLJrFXD50xr21MsTpD6foCwFHHLF0jGxzKK4U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
