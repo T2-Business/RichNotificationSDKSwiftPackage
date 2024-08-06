@@ -1,0 +1,2288 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RiCHNotificationExtensionHandler",
+        "printedName": "RiCHNotificationExtensionHandler",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RiCHNotificationExtensionHandler",
+                "printedName": "RiCHNotificationService.RiCHNotificationExtensionHandler",
+                "usr": "s:23RiCHNotificationService0aB16ExtensionHandlerV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23RiCHNotificationService0aB16ExtensionHandlerVACycfc",
+            "mangledName": "$s23RiCHNotificationService0aB16ExtensionHandlerVACycfc",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handleNotification",
+            "printedName": "handleNotification(_:contentHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNMutableNotificationContent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNMutableNotificationContent",
+                    "printedName": "UserNotifications.UNMutableNotificationContent",
+                    "usr": "c:objc(cs)UNMutableNotificationContent"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService0aB16ExtensionHandlerV18handleNotification_07contentE0ySo21UNNotificationRequestC_ySo09UNMutableG7ContentCctF",
+            "mangledName": "$s23RiCHNotificationService0aB16ExtensionHandlerV18handleNotification_07contentE0ySo21UNNotificationRequestC_ySo09UNMutableG7ContentCctF",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23RiCHNotificationService0aB16ExtensionHandlerV",
+        "mangledName": "$s23RiCHNotificationService0aB16ExtensionHandlerV",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Payloadable",
+        "printedName": "Payloadable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "payload",
+            "printedName": "payload()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService11PayloadableP7payload10Foundation4DataVSgyF",
+            "mangledName": "$s23RiCHNotificationService11PayloadableP7payload10Foundation4DataVSgyF",
+            "moduleName": "RiCHNotificationService",
+            "genericSig": "<τ_0_0 where τ_0_0 : RiCHNotificationService.Payloadable>",
+            "sugared_genericSig": "<Self where Self : RiCHNotificationService.Payloadable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "payload",
+            "printedName": "payload()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService11PayloadablePAAE7payload10Foundation4DataVSgyF",
+            "mangledName": "$s23RiCHNotificationService11PayloadablePAAE7payload10Foundation4DataVSgyF",
+            "moduleName": "RiCHNotificationService",
+            "genericSig": "<τ_0_0 where τ_0_0 : RiCHNotificationService.Payloadable>",
+            "sugared_genericSig": "<Self where Self : RiCHNotificationService.Payloadable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23RiCHNotificationService11PayloadableP",
+        "mangledName": "$s23RiCHNotificationService11PayloadableP",
+        "moduleName": "RiCHNotificationService",
+        "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationData",
+        "printedName": "NotificationData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23RiCHNotificationService16NotificationDataV4textSSSgvp",
+            "mangledName": "$s23RiCHNotificationService16NotificationDataV4textSSSgvp",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService16NotificationDataV4textSSSgvg",
+                "mangledName": "$s23RiCHNotificationService16NotificationDataV4textSSSgvg",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService16NotificationDataV4textSSSgvs",
+                "mangledName": "$s23RiCHNotificationService16NotificationDataV4textSSSgvs",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService16NotificationDataV4textSSSgvM",
+                "mangledName": "$s23RiCHNotificationService16NotificationDataV4textSSSgvM",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sender",
+            "printedName": "sender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23RiCHNotificationService16NotificationDataV6senderSSSgvp",
+            "mangledName": "$s23RiCHNotificationService16NotificationDataV6senderSSSgvp",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService16NotificationDataV6senderSSSgvg",
+                "mangledName": "$s23RiCHNotificationService16NotificationDataV6senderSSSgvg",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService16NotificationDataV6senderSSSgvs",
+                "mangledName": "$s23RiCHNotificationService16NotificationDataV6senderSSSgvs",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService16NotificationDataV6senderSSSgvM",
+                "mangledName": "$s23RiCHNotificationService16NotificationDataV6senderSSSgvM",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(text:sender:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationData",
+                "printedName": "RiCHNotificationService.NotificationData",
+                "usr": "s:23RiCHNotificationService16NotificationDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23RiCHNotificationService16NotificationDataV4text6senderACSSSg_AFtcfc",
+            "mangledName": "$s23RiCHNotificationService16NotificationDataV4text6senderACSSSg_AFtcfc",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationData",
+                "printedName": "RiCHNotificationService.NotificationData",
+                "usr": "s:23RiCHNotificationService16NotificationDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23RiCHNotificationService16NotificationDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23RiCHNotificationService16NotificationDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService16NotificationDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23RiCHNotificationService16NotificationDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23RiCHNotificationService16NotificationDataV",
+        "mangledName": "$s23RiCHNotificationService16NotificationDataV",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Response",
+        "printedName": "Response",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RiCHNotificationService.NotificationData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationData",
+                    "printedName": "RiCHNotificationService.NotificationData",
+                    "usr": "s:23RiCHNotificationService16NotificationDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23RiCHNotificationService8ResponseV4dataAA16NotificationDataVSgvp",
+            "mangledName": "$s23RiCHNotificationService8ResponseV4dataAA16NotificationDataVSgvp",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RiCHNotificationService.NotificationData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationData",
+                        "printedName": "RiCHNotificationService.NotificationData",
+                        "usr": "s:23RiCHNotificationService16NotificationDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService8ResponseV4dataAA16NotificationDataVSgvg",
+                "mangledName": "$s23RiCHNotificationService8ResponseV4dataAA16NotificationDataVSgvg",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RiCHNotificationService.NotificationData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationData",
+                        "printedName": "RiCHNotificationService.NotificationData",
+                        "usr": "s:23RiCHNotificationService16NotificationDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService8ResponseV4dataAA16NotificationDataVSgvs",
+                "mangledName": "$s23RiCHNotificationService8ResponseV4dataAA16NotificationDataVSgvs",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService8ResponseV4dataAA16NotificationDataVSgvM",
+                "mangledName": "$s23RiCHNotificationService8ResponseV4dataAA16NotificationDataVSgvM",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23RiCHNotificationService8ResponseV2idSSSgvp",
+            "mangledName": "$s23RiCHNotificationService8ResponseV2idSSSgvp",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService8ResponseV2idSSSgvg",
+                "mangledName": "$s23RiCHNotificationService8ResponseV2idSSSgvg",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService8ResponseV2idSSSgvs",
+                "mangledName": "$s23RiCHNotificationService8ResponseV2idSSSgvs",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService8ResponseV2idSSSgvM",
+                "mangledName": "$s23RiCHNotificationService8ResponseV2idSSSgvM",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isRead",
+            "printedName": "isRead",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23RiCHNotificationService8ResponseV6isReadSbSgvp",
+            "mangledName": "$s23RiCHNotificationService8ResponseV6isReadSbSgvp",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService8ResponseV6isReadSbSgvg",
+                "mangledName": "$s23RiCHNotificationService8ResponseV6isReadSbSgvg",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService8ResponseV6isReadSbSgvs",
+                "mangledName": "$s23RiCHNotificationService8ResponseV6isReadSbSgvs",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService8ResponseV6isReadSbSgvM",
+                "mangledName": "$s23RiCHNotificationService8ResponseV6isReadSbSgvM",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(createdAt:data:errorCode:errorMessage:id:isRead:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Response",
+                "printedName": "RiCHNotificationService.Response",
+                "usr": "s:23RiCHNotificationService8ResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RiCHNotificationService.NotificationData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationData",
+                    "printedName": "RiCHNotificationService.NotificationData",
+                    "usr": "s:23RiCHNotificationService16NotificationDataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23RiCHNotificationService8ResponseV9createdAt4data9errorCode0H7Message2id6isReadAC10Foundation4DateVSg_AA16NotificationDataVSgSiSgSSSgARSbSgtcfc",
+            "mangledName": "$s23RiCHNotificationService8ResponseV9createdAt4data9errorCode0H7Message2id6isReadAC10Foundation4DateVSg_AA16NotificationDataVSgSiSgSSSgARSbSgtcfc",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Response",
+                "printedName": "RiCHNotificationService.Response",
+                "usr": "s:23RiCHNotificationService8ResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23RiCHNotificationService8ResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23RiCHNotificationService8ResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService8ResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23RiCHNotificationService8ResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23RiCHNotificationService8ResponseV",
+        "mangledName": "$s23RiCHNotificationService8ResponseV",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RegisterDeviceModel",
+        "printedName": "RegisterDeviceModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RegisterDeviceModel",
+                "printedName": "RiCHNotificationService.RegisterDeviceModel",
+                "usr": "s:23RiCHNotificationService19RegisterDeviceModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23RiCHNotificationService19RegisterDeviceModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23RiCHNotificationService19RegisterDeviceModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService19RegisterDeviceModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23RiCHNotificationService19RegisterDeviceModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23RiCHNotificationService19RegisterDeviceModelV",
+        "mangledName": "$s23RiCHNotificationService19RegisterDeviceModelV",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorModel",
+        "printedName": "ErrorModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorModel",
+                "printedName": "RiCHNotificationService.ErrorModel",
+                "usr": "s:23RiCHNotificationService10ErrorModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23RiCHNotificationService10ErrorModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23RiCHNotificationService10ErrorModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService10ErrorModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23RiCHNotificationService10ErrorModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23RiCHNotificationService10ErrorModelV",
+        "mangledName": "$s23RiCHNotificationService10ErrorModelV",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RiCHService",
+        "printedName": "RiCHService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RiCHService",
+                "printedName": "RiCHNotificationService.RiCHService",
+                "usr": "s:23RiCHNotificationService0A9CHServiceV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23RiCHNotificationService0A9CHServiceVACycfc",
+            "mangledName": "$s23RiCHNotificationService0A9CHServiceVACycfc",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "registerDevice",
+            "printedName": "registerDevice(token:deviceID:imeI1:imeI2:mobileNumber:provider:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PushProvider",
+                "printedName": "RiCHNotificationService.PushProvider",
+                "usr": "s:23RiCHNotificationService12PushProviderO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<RiCHNotificationService.RegisterDeviceModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<RiCHNotificationService.RegisterDeviceModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegisterDeviceModel",
+                        "printedName": "RiCHNotificationService.RegisterDeviceModel",
+                        "usr": "s:23RiCHNotificationService19RegisterDeviceModelV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService0A9CHServiceV14registerDevice5token8deviceID5imeI10J2I212mobileNumber8provider_ySS_S4SAA12PushProviderOys6ResultOyAA08RegisterF5ModelVs5Error_pGctF",
+            "mangledName": "$s23RiCHNotificationService0A9CHServiceV14registerDevice5token8deviceID5imeI10J2I212mobileNumber8provider_ySS_S4SAA12PushProviderOys6ResultOyAA08RegisterF5ModelVs5Error_pGctF",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchAllNotifications",
+            "printedName": "fetchAllNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[RiCHNotificationService.Response]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[RiCHNotificationService.Response]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "RiCHNotificationService.Response",
+                        "usr": "s:23RiCHNotificationService8ResponseV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService0A9CHServiceV21fetchAllNotificationsSayAA8ResponseVGSgyF",
+            "mangledName": "$s23RiCHNotificationService0A9CHServiceV21fetchAllNotificationsSayAA8ResponseVGSgyF",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchNotification",
+            "printedName": "fetchNotification(by:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RiCHNotificationService.Response?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "RiCHNotificationService.Response",
+                    "usr": "s:23RiCHNotificationService8ResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService0A9CHServiceV17fetchNotification2byAA8ResponseVSgSS_tF",
+            "mangledName": "$s23RiCHNotificationService0A9CHServiceV17fetchNotification2byAA8ResponseVSgSS_tF",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService0A9CHServiceV6logoutyyF",
+            "mangledName": "$s23RiCHNotificationService0A9CHServiceV6logoutyyF",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteAllNotifications",
+            "printedName": "deleteAllNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService0A9CHServiceV22deleteAllNotificationsyyF",
+            "mangledName": "$s23RiCHNotificationService0A9CHServiceV22deleteAllNotificationsyyF",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteNotification",
+            "printedName": "deleteNotification(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService0A9CHServiceV18deleteNotification4withySS_tF",
+            "mangledName": "$s23RiCHNotificationService0A9CHServiceV18deleteNotification4withySS_tF",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "markNotificationAsRead",
+            "printedName": "markNotificationAsRead(by:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService0A9CHServiceV22markNotificationAsRead2byySS_tF",
+            "mangledName": "$s23RiCHNotificationService0A9CHServiceV22markNotificationAsRead2byySS_tF",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Response",
+                "printedName": "RiCHNotificationService.Response",
+                "usr": "s:23RiCHNotificationService8ResponseV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RiCHNotificationService0A9CHServiceV5writeyyAA8ResponseVF",
+            "mangledName": "$s23RiCHNotificationService0A9CHServiceV5writeyyAA8ResponseVF",
+            "moduleName": "RiCHNotificationService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23RiCHNotificationService0A9CHServiceV",
+        "mangledName": "$s23RiCHNotificationService0A9CHServiceV",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushProvider",
+        "printedName": "PushProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "FCM",
+            "printedName": "FCM",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RiCHNotificationService.PushProvider.Type) -> RiCHNotificationService.PushProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushProvider",
+                    "printedName": "RiCHNotificationService.PushProvider",
+                    "usr": "s:23RiCHNotificationService12PushProviderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RiCHNotificationService.PushProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PushProvider",
+                        "printedName": "RiCHNotificationService.PushProvider",
+                        "usr": "s:23RiCHNotificationService12PushProviderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23RiCHNotificationService12PushProviderO3FCMyA2CmF",
+            "mangledName": "$s23RiCHNotificationService12PushProviderO3FCMyA2CmF",
+            "moduleName": "RiCHNotificationService"
+          },
+          {
+            "kind": "Var",
+            "name": "APNS",
+            "printedName": "APNS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RiCHNotificationService.PushProvider.Type) -> RiCHNotificationService.PushProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushProvider",
+                    "printedName": "RiCHNotificationService.PushProvider",
+                    "usr": "s:23RiCHNotificationService12PushProviderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RiCHNotificationService.PushProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PushProvider",
+                        "printedName": "RiCHNotificationService.PushProvider",
+                        "usr": "s:23RiCHNotificationService12PushProviderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23RiCHNotificationService12PushProviderO4APNSyA2CmF",
+            "mangledName": "$s23RiCHNotificationService12PushProviderO4APNSyA2CmF",
+            "moduleName": "RiCHNotificationService"
+          },
+          {
+            "kind": "Var",
+            "name": "pushWoosh",
+            "printedName": "pushWoosh",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RiCHNotificationService.PushProvider.Type) -> RiCHNotificationService.PushProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushProvider",
+                    "printedName": "RiCHNotificationService.PushProvider",
+                    "usr": "s:23RiCHNotificationService12PushProviderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RiCHNotificationService.PushProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PushProvider",
+                        "printedName": "RiCHNotificationService.PushProvider",
+                        "usr": "s:23RiCHNotificationService12PushProviderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23RiCHNotificationService12PushProviderO9pushWooshyA2CmF",
+            "mangledName": "$s23RiCHNotificationService12PushProviderO9pushWooshyA2CmF",
+            "moduleName": "RiCHNotificationService"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RiCHNotificationService.PushProvider?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushProvider",
+                    "printedName": "RiCHNotificationService.PushProvider",
+                    "usr": "s:23RiCHNotificationService12PushProviderO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23RiCHNotificationService12PushProviderO8rawValueACSgSi_tcfc",
+            "mangledName": "$s23RiCHNotificationService12PushProviderO8rawValueACSgSi_tcfc",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23RiCHNotificationService12PushProviderO8rawValueSivp",
+            "mangledName": "$s23RiCHNotificationService12PushProviderO8rawValueSivp",
+            "moduleName": "RiCHNotificationService",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RiCHNotificationService12PushProviderO8rawValueSivg",
+                "mangledName": "$s23RiCHNotificationService12PushProviderO8rawValueSivg",
+                "moduleName": "RiCHNotificationService",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23RiCHNotificationService12PushProviderO",
+        "mangledName": "$s23RiCHNotificationService12PushProviderO",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RiCHNotificationService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 13,
+      "value": "\"recipientId\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 17,
+      "value": "\"registration_id\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "Dictionary",
+      "offset": 885,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4277,
+      "length": 20,
+      "value": "\"google.c.sender.id\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4328,
+      "length": 16,
+      "value": "\"gcm.message_id\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4373,
+      "length": 14,
+      "value": "\"google.c.fid\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4277,
+      "length": 20,
+      "value": "\"google.c.sender.id\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4328,
+      "length": 16,
+      "value": "\"gcm.message_id\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4373,
+      "length": 14,
+      "value": "\"google.c.fid\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 33,
+      "value": "\"App Group Not Found \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 18,
+      "value": "\"RiCHService-Info\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 15,
+      "value": "\"RICH_BASE_URL\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 11,
+      "value": "\"APP_GROUP\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 15,
+      "value": "\"CLIENT_SECRET\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 11,
+      "value": "\"CLIENT_ID\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 11,
+      "value": "\"BUNDLE_ID\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Networking\/EndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Networking\/EndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 74,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 83,
+      "value": "\" RiCH notifications framework could not find a valid \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 2,
+      "value": "\" in your project.\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 43,
+      "value": "\"CLIENT_SECRET is not found in \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 39,
+      "value": "\"CLIENT_ID is not found in \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 593,
+      "length": 43,
+      "value": "\"RICH_BASE_URL is not found in \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 668,
+      "length": 39,
+      "value": "\"APP_GROUP is not found in \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 706,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 39,
+      "value": "\"BUNDLE_ID is not found in \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "kind": "StringLiteral",
+      "offset": 774,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "kind": "IntegerLiteral",
+      "offset": 225,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "kind": "IntegerLiteral",
+      "offset": 225,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "kind": "IntegerLiteral",
+      "offset": 225,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 1,
+      "value": "3"
+    }
+  ]
+}
