@@ -1998,6 +1998,48 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4277,
+      "length": 20,
+      "value": "\"google.c.sender.id\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4328,
+      "length": 16,
+      "value": "\"gcm.message_id\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4373,
+      "length": 14,
+      "value": "\"google.c.fid\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4277,
+      "length": 20,
+      "value": "\"google.c.sender.id\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4328,
+      "length": 16,
+      "value": "\"gcm.message_id\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4373,
+      "length": 14,
+      "value": "\"google.c.fid\""
+    },
+    {
       "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
       "kind": "StringLiteral",
       "offset": 464,
