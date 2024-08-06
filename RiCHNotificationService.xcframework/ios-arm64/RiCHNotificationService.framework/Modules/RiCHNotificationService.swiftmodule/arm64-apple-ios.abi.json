@@ -59,7 +59,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(UserNotifications.UNMutableNotificationContent) -> ()",
+                "printedName": "(UserNotifications.UNMutableNotificationContent, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -68,16 +68,37 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "UNMutableNotificationContent",
-                    "printedName": "UserNotifications.UNMutableNotificationContent",
-                    "usr": "c:objc(cs)UNMutableNotificationContent"
+                    "name": "Tuple",
+                    "printedName": "(UserNotifications.UNMutableNotificationContent, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNMutableNotificationContent",
+                        "printedName": "UserNotifications.UNMutableNotificationContent",
+                        "usr": "c:objc(cs)UNMutableNotificationContent"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:23RiCHNotificationService0aB16ExtensionHandlerV18handleNotification_07contentE0ySo21UNNotificationRequestC_ySo09UNMutableG7ContentCctF",
-            "mangledName": "$s23RiCHNotificationService0aB16ExtensionHandlerV18handleNotification_07contentE0ySo21UNNotificationRequestC_ySo09UNMutableG7ContentCctF",
+            "usr": "s:23RiCHNotificationService0aB16ExtensionHandlerV18handleNotification_07contentE0ySo21UNNotificationRequestC_ySo09UNMutableG7ContentC_s5Error_pSgtctF",
+            "mangledName": "$s23RiCHNotificationService0aB16ExtensionHandlerV18handleNotification_07contentE0ySo21UNNotificationRequestC_ySo09UNMutableG7ContentC_s5Error_pSgtctF",
             "moduleName": "RiCHNotificationService",
             "declAttributes": [
               "AccessControl",
@@ -2000,42 +2021,42 @@
     {
       "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4277,
+      "offset": 4401,
       "length": 20,
       "value": "\"google.c.sender.id\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4328,
+      "offset": 4452,
       "length": 16,
       "value": "\"gcm.message_id\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4373,
+      "offset": 4497,
       "length": 14,
       "value": "\"google.c.fid\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4277,
+      "offset": 4401,
       "length": 20,
       "value": "\"google.c.sender.id\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4328,
+      "offset": 4452,
       "length": 16,
       "value": "\"gcm.message_id\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4373,
+      "offset": 4497,
       "length": 14,
       "value": "\"google.c.fid\""
     },

@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Cc8kYAB+wXPdFknr1hvrNbVIQOY=
+		/3RRAr1Eywr6bTVuxhkyMUntLfE=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		9eB1UQjqu5c9Dvyipbtv6cnRCpw=
+		FuK2N56N2k1RsiQg7sc37ZT+iAQ=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		lF9tl4YnRFFkO5Nafju71cDXiEg=
+		/76EnyzaKD7hOpe45F43iGdJCHo=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		9eB1UQjqu5c9Dvyipbtv6cnRCpw=
+		FuK2N56N2k1RsiQg7sc37ZT+iAQ=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xlFWF9OVmOYyZgiBmjTVhMaIY2o=
+		WtJoi0Dslv9vvP2lj17sUZzkdZA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ru1U27XnNy31By4yxrvdbDf+Q3V5wflmwuEfr3gFM0I=
+			U5IuhMZImHc2aZH5YlDDbD2V5YUTyXGGBpkkWwNCU7w=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eoXz2V4IUgocgNDQnTpzyD9P2jL3l4SL7tLLS1AjPuo=
+			H4+sOCZZHG1JSabp5Eosis7rtL6uw+2KFxqxxKJOuU8=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nkwMf0umTWP17PqKGeoo7eTm5VzM6tsx9UE0X4AP/7c=
+			8hgrHpDHDqBg9y64U7LXp8CJ6RMJ2c/LWF/RfUGCzzo=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eoXz2V4IUgocgNDQnTpzyD9P2jL3l4SL7tLLS1AjPuo=
+			H4+sOCZZHG1JSabp5Eosis7rtL6uw+2KFxqxxKJOuU8=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BklJutnInjF0ybnwHUGDgcVqpSNHxIQ1AbDXnsVnw0A=
+			BC1Yum5mUV4NWVHsEeSrbzvnrQAMkPXZ5k3M14dsRZU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

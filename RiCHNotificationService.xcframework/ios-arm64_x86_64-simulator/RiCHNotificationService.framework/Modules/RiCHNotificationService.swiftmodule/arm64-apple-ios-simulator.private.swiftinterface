@@ -11,7 +11,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public struct RiCHNotificationExtensionHandler {
   public init()
-  public func handleNotification(_ request: UserNotifications.UNNotificationRequest, contentHandler: @escaping (UserNotifications.UNMutableNotificationContent) -> Swift.Void)
+  public func handleNotification(_ request: UserNotifications.UNNotificationRequest, contentHandler: @escaping (UserNotifications.UNMutableNotificationContent, (any Swift.Error)?) -> Swift.Void)
 }
 public protocol Payloadable : Swift.Decodable, Swift.Encodable {
   func payload() -> Foundation.Data?
