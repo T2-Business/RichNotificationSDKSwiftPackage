@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "RiCHNotificationService",
+    "printedName": "RiCHNotificationService",
     "children": [
       {
         "kind": "Import",
@@ -114,6 +114,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -201,6 +217,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -634,6 +664,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1158,6 +1202,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1240,6 +1298,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1320,6 +1392,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1721,6 +1807,22 @@
         "moduleName": "RiCHNotificationService",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1933,6 +2035,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1998,308 +2114,245 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
       "offset": 454,
       "length": 13,
       "value": "\"recipientId\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
       "offset": 504,
       "length": 17,
       "value": "\"registration_id\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "Dictionary",
       "offset": 885,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
       "offset": 4401,
       "length": 20,
       "value": "\"google.c.sender.id\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
       "offset": 4452,
       "length": 16,
       "value": "\"gcm.message_id\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
       "offset": 4497,
       "length": 14,
       "value": "\"google.c.fid\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 4401,
-      "length": 20,
-      "value": "\"google.c.sender.id\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 4452,
-      "length": 16,
-      "value": "\"gcm.message_id\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 4497,
-      "length": 14,
-      "value": "\"google.c.fid\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
       "kind": "StringLiteral",
       "offset": 464,
       "length": 33,
       "value": "\"App Group Not Found \""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 18,
       "value": "\"RiCHService-Info\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 270,
       "length": 15,
       "value": "\"RICH_BASE_URL\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 310,
       "length": 11,
       "value": "\"APP_GROUP\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 350,
       "length": 15,
       "value": "\"CLIENT_SECRET\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 390,
       "length": 11,
       "value": "\"CLIENT_ID\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 422,
       "length": 7,
       "value": "\"plist\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 454,
       "length": 11,
       "value": "\"BUNDLE_ID\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Networking\/EndPoint.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Networking\/EndPoint.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Networking\/EndPoint.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Networking\/EndPoint.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 74,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 83,
       "value": "\" RiCH notifications framework could not find a valid \""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 2,
       "value": "\" in your project.\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 448,
       "length": 43,
       "value": "\"CLIENT_SECRET is not found in \""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 490,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 523,
       "length": 39,
       "value": "\"CLIENT_ID is not found in \""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 561,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 593,
       "length": 43,
       "value": "\"RICH_BASE_URL is not found in \""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 635,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 668,
       "length": 39,
       "value": "\"APP_GROUP is not found in \""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 706,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 736,
       "length": 39,
       "value": "\"BUNDLE_ID is not found in \""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/RiCHNotification+NSException.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
       "kind": "IntegerLiteral",
       "offset": 210,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
-      "kind": "IntegerLiteral",
-      "offset": 210,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
-      "kind": "IntegerLiteral",
-      "offset": 225,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
-      "kind": "IntegerLiteral",
-      "offset": 210,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
-      "kind": "IntegerLiteral",
-      "offset": 225,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Documents - Apple’s MacBook Pro\/T2-Repo\/Remove Realm Rich\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Repo Needs to Push\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Entities\/RequestEntities.swift",
       "kind": "IntegerLiteral",
       "offset": 245,
       "length": 1,

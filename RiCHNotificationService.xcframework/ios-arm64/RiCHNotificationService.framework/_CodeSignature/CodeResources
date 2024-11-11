@@ -6,35 +6,35 @@
 	<dict>
 		<key>Headers/RiCHNotificationService-Swift.h</key>
 		<data>
-		jk0njGvCdu1bjjBSj1QquQnXGIo=
+		tSzW+AM7WVBJl8htPm6fsZTKvp8=
 		</data>
 		<key>Headers/RiCHNotificationService.h</key>
 		<data>
-		bz3haOXBJZIxrrDc10ZWXYfQ/og=
+		7vsKL1nR1sFp2P+cTMXr1hNGPZg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pA59kazQ3DVy8hk8j6PtNYFRdak=
+		OzpPLms24gcIFT0mQiv8f4fVk5Y=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/3RRAr1Eywr6bTVuxhkyMUntLfE=
+		SReuJq8aVLnZ/eCcd692MW0M/dQ=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		FuK2N56N2k1RsiQg7sc37ZT+iAQ=
+		CPfanHEFVsCXUXpcq6MEKdFt6x8=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/76EnyzaKD7hOpe45F43iGdJCHo=
+		xkFqoagfZ3UeK7b+6Q7pyMRTSk8=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		FuK2N56N2k1RsiQg7sc37ZT+iAQ=
+		CPfanHEFVsCXUXpcq6MEKdFt6x8=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		WtJoi0Dslv9vvP2lj17sUZzkdZA=
+		epP7bWe3jZww+xuZM4w/Fumcu7Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,49 +47,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+RIncyao1vXjR6AXVJzYqr/1NrdANvTWuy+RoJxEgBM=
+			CeDa0yFeChnKB8r6dQ1QYjex50K/QLpyhL7k6Xm/OUc=
 			</data>
 		</dict>
 		<key>Headers/RiCHNotificationService.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OnQjPxThgRbTyeezOmQtIrZX+LOB+esfLKz5XVdN4q4=
+			z8I0RiVnXj4ivJtMIGolXET9by//r61qL6hU0fIVmNY=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U5IuhMZImHc2aZH5YlDDbD2V5YUTyXGGBpkkWwNCU7w=
+			CHrfKLGqmMR6cEIlC8auUtEHKq63+iTmpbA8VCOhkqk=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H4+sOCZZHG1JSabp5Eosis7rtL6uw+2KFxqxxKJOuU8=
+			R1fj9u9EK7PT4QhiWB8nHHP7y1qeHaulFFk3WFpeKRk=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8hgrHpDHDqBg9y64U7LXp8CJ6RMJ2c/LWF/RfUGCzzo=
+			zBb/Pd3OJxtsNoOfnEfBMSYjCthh0NLmq0+vASYCnng=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H4+sOCZZHG1JSabp5Eosis7rtL6uw+2KFxqxxKJOuU8=
+			R1fj9u9EK7PT4QhiWB8nHHP7y1qeHaulFFk3WFpeKRk=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BC1Yum5mUV4NWVHsEeSrbzvnrQAMkPXZ5k3M14dsRZU=
+			c4qoZToAv9218GsDUx0u2pXlQvP9Q/Z+9Rd8RRU0Row=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
