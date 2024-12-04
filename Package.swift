@@ -5,15 +5,22 @@ import PackageDescription
 
 let package = Package(
     name: "RiCHNotificationService",
+    platforms: [
+        .iOS(.v13) // Specify the supported platform versions
+    ],
     products: [
         .library(
             name: "RiCHNotificationService",
-            targets: ["RiCHNotificationService"])
+            targets: ["RiCHNotificationService"]
+        )
     ],
     dependencies: [
-        ],
+        // List external dependencies here if needed
+    ],
     targets: [
         .binaryTarget(
             name: "RiCHNotificationService",
-            path: "RiCHNotificationService.xcframework")
-    ])
+            path: "RiCHNotificationService.xcframework" // Ensure the path to the `.xcframework` is correct
+        )
+    ]
+)
