@@ -116,13 +116,72 @@ In order for the framework to work you need to register the user device with RiC
         }
     }
      ```
-     
-     ## Available Methods
-The following methods are available in RiCHService for managing notifications:
+   
+# RiCHService SDK
 
-In order for the framework to work you need to register the user device with RiCH service, you can do that by calling RiCHService().registerDevice method after you catch device token and Mobile Number
- 
+The **RiCHService SDK** simplifies notification management for developers. Follow the steps below to integrate the SDK and manage notifications efficiently.
+
+## Available Methods
+
+The RiCHService SDK offers several methods for managing notifications efficiently. To start using the framework, ensure you register the user’s device with the RiCH service by calling the `registerDevice` method after obtaining the device token and mobile number.
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Ensure the SDK is integrated via Swift Package Manager.
+- Obtain the device token and the user's mobile number before registering the device.
+
+### Enable Debug Logging (Optional)
+To enable debug logging for monitoring and troubleshooting, add the following line to your `AppDelegate` under the `application(_:didFinishLaunchingWithOptions:)` method:
+
+```swift
+DebugLogger.isEnabled = true
+     ```
+### Register the Device
+Register the user's device with the RiCH service by calling the registerDevice method. This step is necessary before using the notification management methods.
+
+```swift
+RiCHService().registerDevice(deviceToken: String, mobileNumber: String)
+     
+```
+     
+     ### Fetch All Notifications
+Retrieve all notifications for the registered device:
+
+```swift
+RiCHService().fetchAllNotifications()
+
+```
+
+     ### Fetch a Notification by ID
+Retrieve a specific notification using its unique identifier:
+
+```swift
+RiCHService().fetchNotification(by: id)
+
+```
+
+     ### Delete All Notifications
+Remove all notifications associated with the device:
+
+```swift
+RiCHService().deleteAllNotifications()
+
+```
+     ### Delete a Notification by ID
+Remove a specific notification using its unique identifier:
+
+```swift
+RiCHService().deleteNotification(with: id)
+
+```
+
     ```swift
+       // TO enable DebugLogger mode add blewo line to AppDelegate under Func 
+            DebugLogger.isEnabled = true
+            
        // Fetches all notifications
           RiCHService().fetchAllNotifications()
 
