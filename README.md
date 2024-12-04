@@ -99,7 +99,7 @@ Steps to create notification service extension:
 
 In order for the framework to work you need to register the user device with RiCH service, you can do that by calling RiCHService().registerDevice method after you catch device token and Mobile Number
  
-    ```swift
+```swift
         RiCHService().registerDevice(
         token: "REGISTER_TOKEN_HERE",
         deviceID: UUID().uuidString,
@@ -115,7 +115,7 @@ In order for the framework to work you need to register the user device with RiC
             print("Device Register failure with error -->",error)
         }
     }
-     ```
+```
    
 # RiCHService SDK
 
