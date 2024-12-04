@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SReuJq8aVLnZ/eCcd692MW0M/dQ=
+		IQJAO4Yg+jlVqvwMfI70edmN/rM=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xolrKSdix2wryW6HLi5+oZV4CBI=
+		sa6NJNr73anXMoCLBbPOo32bskc=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xolrKSdix2wryW6HLi5+oZV4CBI=
+		sa6NJNr73anXMoCLBbPOo32bskc=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pWpVKNQK9QWEiHLiymiuFPYwtG0=
+		OJHkWnSpoKykwrWbEEJE3/aZ1uU=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SReuJq8aVLnZ/eCcd692MW0M/dQ=
+		IQJAO4Yg+jlVqvwMfI70edmN/rM=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KK+hVPnZeNG9x+6AviugTnwGr2A=
+		snDPRXw53L56rBXOk0f2W6aHQSs=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KK+hVPnZeNG9x+6AviugTnwGr2A=
+		snDPRXw53L56rBXOk0f2W6aHQSs=
 		</data>
 		<key>Modules/RiCHNotificationService.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xWGpdO6vt760tOOXnIzGsAN6HnY=
+		KbEID+GwfLYBo98ivqVvcnFlCMk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CHrfKLGqmMR6cEIlC8auUtEHKq63+iTmpbA8VCOhkqk=
+			uKQJDgTJfTs7Ts2ZEoE251R55jvGbtjgumz0dpgzt8U=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EIYDyxiTCwy3d8MtIO256G8faqQLJYdm5in60b6BXdE=
+			asu864YxCLUYNFSSqmFbmH798hsNn589WO3k0ScLh/I=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EIYDyxiTCwy3d8MtIO256G8faqQLJYdm5in60b6BXdE=
+			asu864YxCLUYNFSSqmFbmH798hsNn589WO3k0ScLh/I=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wQ89QOmzxi5NfxgEU3GAA5DeuZGOvSx/oN9yzLaqjBA=
+			6Iiybn0RiI4JO+68RmVHK/i8bDxecywGF6ifI6M6YEo=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CHrfKLGqmMR6cEIlC8auUtEHKq63+iTmpbA8VCOhkqk=
+			uKQJDgTJfTs7Ts2ZEoE251R55jvGbtjgumz0dpgzt8U=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wT9rFM+DVUzUmJS9GkWPpW80fwge9NpqSSZhxk/wS2g=
+			7nOC4IIypH1jmwpN+hfA4ToBaZ/PN1xvMxdqrQPoldA=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wT9rFM+DVUzUmJS9GkWPpW80fwge9NpqSSZhxk/wS2g=
+			7nOC4IIypH1jmwpN+hfA4ToBaZ/PN1xvMxdqrQPoldA=
 			</data>
 		</dict>
 		<key>Modules/RiCHNotificationService.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EUEQDyNYfKfCrNEl6TwzHdVbywY6GdVieHW1azB1A58=
+			uNY9zQgj+4O97SvJFXK1Micy2BNkrzis0wUiI8IojkA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
