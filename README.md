@@ -137,7 +137,8 @@ The RiCHService SDK offers several methods for managing notifications efficientl
 To enable debug logging for monitoring and troubleshooting, add the following line to your `AppDelegate` under the `application(_:didFinishLaunchingWithOptions:)` method:
 
 ```swift
-DebugLogger.isEnabled = true ```
+DebugLogger.isEnabled = true 
+```
 ```swift
 ### Register the Device
 Register the user's device with the RiCH service by calling the registerDevice method. This step is necessary before using the notification management methods.
