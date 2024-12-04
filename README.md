@@ -142,33 +142,27 @@ DebugLogger.isEnabled = true
 ### Register the Device
 Register the user's device with the RiCH service by calling the registerDevice method. This step is necessary before using the notification management methods.
 
-```swift
 RiCHService().registerDevice(deviceToken: String, mobileNumber: String)
      
 ### Fetch All Notifications
 Retrieve all notifications for the registered device:
 
-```swift
 RiCHService().fetchAllNotifications()
-
 
 ### Fetch a Notification by ID
 Retrieve a specific notification using its unique identifier:
 
-```swift
 RiCHService().fetchNotification(by: id)
 
 
 ### Delete All Notifications
 Remove all notifications associated with the device:
 
-```swift
 RiCHService().deleteAllNotifications()
 
 ### Delete a Notification by ID
 Remove a specific notification using its unique identifier:
 
-```swift
 RiCHService().deleteNotification(with: id)
 
 ```
