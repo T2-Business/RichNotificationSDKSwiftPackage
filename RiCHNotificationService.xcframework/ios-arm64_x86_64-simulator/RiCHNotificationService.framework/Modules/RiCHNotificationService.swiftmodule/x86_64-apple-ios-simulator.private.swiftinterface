@@ -48,7 +48,6 @@ public struct RiCHService {
 }
 extension RiCHNotificationService.RiCHService {
   public func registerDevice(token: Swift.String, deviceID: Swift.String, imeI1: Swift.String, imeI2: Swift.String, mobileNumber: Swift.String, provider: RiCHNotificationService.PushProvider, _ completion: @escaping (Swift.Result<RiCHNotificationService.RegisterDeviceModel, any Swift.Error>) -> Swift.Void)
-  public func retrieveLog() -> [Swift.String]?
   public func fetchAllNotifications() -> [RiCHNotificationService.RiCHService.RiCHNotification]?
   public func fetchNotification(by id: Swift.String) -> RiCHNotificationService.RiCHService.RiCHNotification?
   public func logout()
@@ -66,15 +65,6 @@ public enum PushProvider : Swift.Int, Swift.Codable {
   public var rawValue: Swift.Int {
     get
   }
-}
-@_hasMissingDesignatedInitializers public class DebugLogger {
-  public static var isEnabled: Swift.Bool
-  public static func log(_ message: Swift.String)
-  public static func retrieveLogs() -> [Swift.String]
-  public static func clearLogs()
-  public static func saveLogToFile(_ message: Swift.String)
-  public static func getLogFilePath() -> Swift.String?
-  @objc deinit
 }
 extension RiCHNotificationService.PushProvider : Swift.Equatable {}
 extension RiCHNotificationService.PushProvider : Swift.Hashable {}

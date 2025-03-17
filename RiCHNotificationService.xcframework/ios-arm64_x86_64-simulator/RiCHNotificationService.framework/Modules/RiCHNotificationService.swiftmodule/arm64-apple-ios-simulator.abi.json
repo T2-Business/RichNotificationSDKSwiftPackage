@@ -1600,44 +1600,6 @@
           },
           {
             "kind": "Function",
-            "name": "retrieveLog",
-            "printedName": "retrieveLog()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:23RiCHNotificationService0A9CHServiceV11retrieveLogSaySSGSgyF",
-            "mangledName": "$s23RiCHNotificationService0A9CHServiceV11retrieveLogSaySSGSgyF",
-            "moduleName": "RiCHNotificationService",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "fetchAllNotifications",
             "printedName": "fetchAllNotifications()",
             "children": [
@@ -2146,294 +2108,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "RiCHNotificationService",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "RiCHNotificationService"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DebugLogger",
-        "printedName": "DebugLogger",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "isEnabled",
-            "printedName": "isEnabled",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:23RiCHNotificationService11DebugLoggerC9isEnabledSbvpZ",
-            "mangledName": "$s23RiCHNotificationService11DebugLoggerC9isEnabledSbvpZ",
-            "moduleName": "RiCHNotificationService",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23RiCHNotificationService11DebugLoggerC9isEnabledSbvgZ",
-                "mangledName": "$s23RiCHNotificationService11DebugLoggerC9isEnabledSbvgZ",
-                "moduleName": "RiCHNotificationService",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23RiCHNotificationService11DebugLoggerC9isEnabledSbvsZ",
-                "mangledName": "$s23RiCHNotificationService11DebugLoggerC9isEnabledSbvsZ",
-                "moduleName": "RiCHNotificationService",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23RiCHNotificationService11DebugLoggerC9isEnabledSbvMZ",
-                "mangledName": "$s23RiCHNotificationService11DebugLoggerC9isEnabledSbvMZ",
-                "moduleName": "RiCHNotificationService",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "log",
-            "printedName": "log(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:23RiCHNotificationService11DebugLoggerC3logyySSFZ",
-            "mangledName": "$s23RiCHNotificationService11DebugLoggerC3logyySSFZ",
-            "moduleName": "RiCHNotificationService",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "retrieveLogs",
-            "printedName": "retrieveLogs()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:23RiCHNotificationService11DebugLoggerC12retrieveLogsSaySSGyFZ",
-            "mangledName": "$s23RiCHNotificationService11DebugLoggerC12retrieveLogsSaySSGyFZ",
-            "moduleName": "RiCHNotificationService",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearLogs",
-            "printedName": "clearLogs()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:23RiCHNotificationService11DebugLoggerC9clearLogsyyFZ",
-            "mangledName": "$s23RiCHNotificationService11DebugLoggerC9clearLogsyyFZ",
-            "moduleName": "RiCHNotificationService",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "saveLogToFile",
-            "printedName": "saveLogToFile(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:23RiCHNotificationService11DebugLoggerC13saveLogToFileyySSFZ",
-            "mangledName": "$s23RiCHNotificationService11DebugLoggerC13saveLogToFileyySSFZ",
-            "moduleName": "RiCHNotificationService",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getLogFilePath",
-            "printedName": "getLogFilePath()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:23RiCHNotificationService11DebugLoggerC14getLogFilePathSSSgyFZ",
-            "mangledName": "$s23RiCHNotificationService11DebugLoggerC14getLogFilePathSSSgyFZ",
-            "moduleName": "RiCHNotificationService",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:23RiCHNotificationService11DebugLoggerC",
-        "mangledName": "$s23RiCHNotificationService11DebugLoggerC",
-        "moduleName": "RiCHNotificationService",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
       }
     ],
     "json_format_version": 8
@@ -2463,63 +2137,35 @@
     {
       "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6158,
+      "offset": 4366,
       "length": 20,
       "value": "\"google.c.sender.id\""
     },
     {
       "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6209,
+      "offset": 4417,
       "length": 16,
       "value": "\"gcm.message_id\""
     },
     {
       "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Public interface\/RiCHNotificationExtensionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6254,
+      "offset": 4462,
       "length": 14,
       "value": "\"google.c.fid\""
     },
     {
       "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1303,
-      "length": 53,
-      "value": "\"UserDefaults Data Storage appGroup is <\""
-    },
-    {
-      "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1354,
-      "length": 1,
-      "value": "\">\""
-    },
-    {
-      "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1433,
-      "length": 72,
-      "value": "\"UserDefaults Data Storage appGroup (App Group Not Found) <\""
-    },
-    {
-      "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1503,
-      "length": 1,
-      "value": "\">\""
-    },
-    {
-      "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1530,
+      "offset": 464,
       "length": 33,
       "value": "\"App Group Not Found \""
     },
     {
       "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DataPersistence\/UserDefaultsDataStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1562,
+      "offset": 496,
       "length": 2,
       "value": "\"\""
     },
@@ -2571,6 +2217,27 @@
       "offset": 454,
       "length": 11,
       "value": "\"BUNDLE_ID\""
+    },
+    {
+      "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 506,
+      "length": 25,
+      "value": "\"SET_CUSTOM_NOTIFICATION\""
+    },
+    {
+      "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 821,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Configuration\/Configuration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 969,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/Networking\/EndPoint.swift",
@@ -2711,27 +2378,6 @@
       "offset": 245,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DebugLogger\/DebugLogger.swift",
-      "kind": "BooleanLiteral",
-      "offset": 199,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DebugLogger\/DebugLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 249,
-      "length": 30,
-      "value": "\"group.com.T2.T2MessageCenter\""
-    },
-    {
-      "filePath": "\/Users\/apple\/T2-Repo\/RiCHPushNotification\/RiCHNotificationService\/Classes\/DebugLogger\/DebugLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 347,
-      "length": 14,
-      "value": "\"SDKDebugLogs\""
     }
   ]
 }
